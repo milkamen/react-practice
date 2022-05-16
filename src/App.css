@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(71, 150, 125, 0.2);
+  transition: 0.5s;
+  width: 300px;
+  border-radius: 5px;
+  margin: 15px;
+}
+ 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(210, 64, 64, 0.2);
+}
+ 
+img {
+  border-radius: 5px 5px 0 0;
+  height: 300px;
+  width: 300px;
+}
+ 
+.cardContent,
+.cardFooter {
+  background-color: #464615;
+  padding: 2px 16px;
+}
+ 
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
