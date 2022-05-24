@@ -1,9 +1,9 @@
-function CountryCategory(props){
-     return <div>{props.children}</div>
+function Countries(props) {
+  return <div>{props.children}</div>;
 }
 
-function VitaminCategory(props){
-   return <div>{props.children}</div>
+function VitaminCategory(props) {
+  return <div>{props.children}</div>;
 }
 
-export{CountryCategory, VitaminCategory}
+export { Countries, VitaminCategory };
